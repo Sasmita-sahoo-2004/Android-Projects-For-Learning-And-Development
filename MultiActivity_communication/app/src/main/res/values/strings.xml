@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Navigation Demo</string>
+    <!-- MainActivity Strings -->
+    <string name="edittext_hint">Enter your name</string>
+    <string name="btn_navigate">Go to Second Activity</string>
+    <string name="btn_navigate1">Go to Main Activity</string>
+    <!-- SecondActivity Strings -->
+    <string name="welcome_message">Welcome to Second Activity!</string>
+    <string name="default_welcome">Welcome, Guest!</string>
+    <string name="personalized_welcome">Welcome, %1$s!</string>
+    <string name="enter_your_name">Enter your name</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Sas's Relative Layout"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:layout_below="@id/heading"
+        android:layout_alignParentStart="true"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/last_name"
+        android:layout_below="@id/heading"
+        android:layout_alignParentEnd="true"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/university_name"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/et1"/>
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/regn_no"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/et3"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:layout_below="@id/et3"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

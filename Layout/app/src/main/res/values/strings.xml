@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="button">Button</string>
+    <string name="university_name">University Name</string>
+    <string name="regn_no">Regn No</string>
+
+</resources>
